@@ -1,5 +1,14 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
+    app: {
+        head: {
+            charset: 'utf-8',
+            title: 'Skreet Media Inc.',
+            htmlAttrs: {
+                class: "dark bg-background text-foreground"
+            }
+        }
+    },
     devtools: {enabled: true},
     ssr: true,
     css: [`assets/css/styles.css`],
