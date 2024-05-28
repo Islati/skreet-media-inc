@@ -1,0 +1,35 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "lighthouse": "bunx unlighthouse --site https://skreet.ca"
+  },
+  "dependencies": {
+    "@nuxt/content": "^2.12.1",
+    "@nuxt/image": "^1.7.0",
+    "@nuxtjs/robots": "^3.0.0",
+    "@nuxtjs/seo": "^2.0.0-rc.10",
+    "@nuxtjs/sitemap": "^5.2.0",
+    "@nuxtjs/tailwindcss": "^6.12.0",
+    "@radix-icons/vue": "^1.0.0",
+    "class-variance-authority": "^0.7.0",
+    "clsx": "^2.1.1",
+    "nuxt": "^3.11.2",
+    "radix-vue": "^1.8.2",
+    "shadcn-nuxt": "^0.10.4",
+    "tailwind-merge": "^2.3.0",
+    "tailwindcss-animate": "^1.0.7",
+    "vue": "^3.4.27",
+    "vue-router": "^4.3.2"
+  },
+  "devDependencies": {
+    "@nuxtjs/color-mode": "^3.4.1",
+    "typescript": "^5.4.5"
+  }
+}
