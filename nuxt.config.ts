@@ -20,7 +20,8 @@ export default defineNuxtConfig({
         '@nuxtjs/robots',
         "@nuxt/content",
         '@nuxtjs/color-mode',
-        "@nuxt/image"
+        "@nuxt/image",
+        "nuxt-icon"
     ],
     robots: {},
     seo: {
