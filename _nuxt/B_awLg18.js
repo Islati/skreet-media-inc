@@ -1,1 +1,0 @@
-import s from"./CLFGa-NE.js";import{f as o,M as f,r as u,G as c}from"./-HHrPVRG.js";const i=o({name:"Markdown",extends:s,setup(t){const{parent:e}=c(),{between:n,default:a}=f(),r=u(()=>typeof t.unwrap=="string"?t.unwrap.split(" "):["*"]);return{fallbackSlot:a,tags:r,between:n,parent:e}}});export{i as default};
