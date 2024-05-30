@@ -71,7 +71,7 @@ const artists = ref([
 </script>
 
 <template>
-  <div class="container mx-auto p-4">
+  <div class="container mx-auto p-4 h-screen">
     <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-x-4 gap-y-1">
       <ArtistCard v-for="artist in artists" :key="artist.name" :artist="artist"/>
     </div>
