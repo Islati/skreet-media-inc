@@ -15,7 +15,7 @@ const isActive = (path: any) => {
   <div :class="cn('pb-12', $attrs.class ?? '')" class="border-r flex flex-col">
     <div class="space-y-4 py-4 flex flex-col">
       <div class="px-3 py-2 flex flex-col">
-        <nuxt-img src="/img/logo.png" alt="Skreet Media Inc." class="w-96 rounded invert"/>
+        <img src="/img/logo.png" alt="Skreet Media Inc." class="w-96 rounded invert"/>
       </div>
       <div class="flex flex-col space-y-1">
         <Button :class="`${isActive('/')}` + ' w-full justify-start'" variant="ghost"

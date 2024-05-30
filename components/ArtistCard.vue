@@ -29,7 +29,7 @@ const props = defineProps<{
       <CardDescription>{{ artist.location }}</CardDescription>
     </CardHeader>
     <CardContent class="flex justify-center">
-      <NuxtImg :src="artist.img" :alt="artist.name" class="w-80 h-60 object-cover"/>
+      <img :src="artist.img" :alt="artist.name" class="w-80 h-60 object-cover"/>
     </CardContent>
     <CardFooter class="border-t h-8 flex justify-center py-4">
       <div class="flex justify-center space-x-2">

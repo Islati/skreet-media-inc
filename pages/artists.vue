@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { ref, onMounted } from 'vue';
+import {ref, onMounted} from 'vue';
 
 useHead({
   title: 'Skreet - Artists',
@@ -19,33 +19,34 @@ const artists = ref([
     img: '/img/smoke-hash-peru.jpeg',
     link: 'https://www.youtube.com/@smokehashxuriahjahvid',
     footerTags: [
-      {
-        text: 'Producer',
-        classes: 'text-blue-300'
-      },
+
       {
         text: 'Rapper',
         classes: 'text-red-300'
+      },
+      {
+        text: 'Producer',
+        classes: 'text-blue-300'
       },
     ]
   },
   {
-    name: 'Islati',
-    location: "Nova Scotia, Canada",
-    img: '/img/islati-camping.png',
-    link: 'https://www.youtube.com/@Islati',
+    name: "Locust Street",
+    location: "Kansas, USA",
+    img: "/img/Jesse.Leev.jpg",
+    link: "https://www.instagram.com/jesse.leev",
     footerTags: [
-      {
-        text: 'DJ',
-        classes: 'text-cyan-300'
-      },
-      {
-        text: 'Producer',
-        classes: 'text-blue-300'
-      },
       {
         text: 'Rapper',
         classes: 'text-red-300'
+      },
+      {
+        text: "DJ",
+        classes: 'text-cyan-300'
+      },
+      {
+        text: 'Vocalist',
+        classes: 'text-green-300'
       }
     ]
   },
@@ -65,6 +66,28 @@ const artists = ref([
       }
     ],
   },
+
+  {
+    name: 'Islati',
+    location: "Nova Scotia, Canada",
+    img: '/img/islati-camping.png',
+    link: 'https://www.youtube.com/@Islati',
+    footerTags: [
+      {
+        text: 'Rapper',
+        classes: 'text-red-300'
+      },
+      {
+        text: 'Producer',
+        classes: 'text-blue-300'
+      },
+      {
+        text: 'DJ',
+        classes: 'text-cyan-300'
+      },
+    ]
+  },
+
   {
     name: "Torza",
     location: "Ontario, Canada",
@@ -72,11 +95,16 @@ const artists = ref([
     link: "https://www.skreet.ca",
     footerTags: [
       {
+        text: "Rapper",
+        classes: "text-red-300"
+      },
+      {
         text: 'Vocalist',
         classes: 'text-green-300'
       }
     ]
-  }
+  },
+
 ]);
 </script>
 
