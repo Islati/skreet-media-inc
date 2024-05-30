@@ -1,15 +1,5 @@
 <script setup lang="ts">
 import {ref, onMounted} from 'vue';
-import {
-  Card,
-  CardContent,
-  CardDescription,
-  CardFooter,
-  CardHeader,
-  CardTitle,
-} from '@/components/ui/card'
-import {Badge} from "~/components/ui/badge";
-import ArtistCard from "~/components/ArtistCard.vue";
 
 const titles = [
   {main: 'Skreet', sub: 'Empire'},
@@ -29,6 +19,16 @@ const changeText = () => {
 
 onMounted(() => {
   setInterval(changeText, 3000); // Change text every 3 seconds
+});
+
+useHead({
+  title: 'Skreet - Home',
+  meta: [
+    {
+      name: 'description',
+      content: 'Home page for Skreet Media Inc. The Culture Collective.'
+    }
+  ]
 });
 
 </script>

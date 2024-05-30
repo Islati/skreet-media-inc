@@ -11,9 +11,17 @@ const form = ref({
 });
 
 const submitDemo = () => {
-  // Handle form submission logic
-  alert('Demo submitted!');
 };
+
+useHead({
+  title: 'Skreet - Demo Submissions',
+  meta: [
+    {
+      name: 'description',
+      content: 'Submit your demo to Skreet Media Inc.'
+    }
+  ]
+});
 </script>
 
 <template>

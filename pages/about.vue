@@ -1,4 +1,13 @@
 <script setup lang="ts">
+useHead({
+  title: 'Skreet - About',
+  meta: [
+    {
+      name: 'description',
+      content: 'About page for Skreet Media Inc. The Culture Collective.'
+    }
+  ]
+})
 </script>
 
 <template>

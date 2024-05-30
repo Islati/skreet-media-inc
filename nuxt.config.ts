@@ -3,10 +3,14 @@ export default defineNuxtConfig({
     app: {
         head: {
             charset: 'utf-8',
-            title: 'Skreet Media Inc.',
+            titleTemplate: '%s',  // This sets the title template to use only the page title without any suffix
+
             htmlAttrs: {
                 class: "dark bg-background text-foreground"
-            }
+            },
+            link: [
+                {rel: 'icon', type: 'image/png', href: '/img/logo.png'}
+            ]
         }
     },
     devtools: {enabled: true},

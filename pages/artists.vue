@@ -1,6 +1,16 @@
 <script setup lang="ts">
 import { ref, onMounted } from 'vue';
 
+useHead({
+  title: 'Skreet - Artists',
+  meta: [
+    {
+      name: 'description',
+      content: 'Artists working with Skreet Media Inc.'
+    }
+  ]
+})
+
 
 const artists = ref([
   {
