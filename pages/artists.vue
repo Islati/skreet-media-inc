@@ -6,7 +6,7 @@ useHead({
   meta: [
     {
       name: 'description',
-      content: 'Artists working with Skreet Media Inc.'
+      content: 'The artists of Skreet Media Inc.'
     }
   ]
 })
@@ -66,7 +66,6 @@ const artists = ref([
       }
     ],
   },
-
   {
     name: 'Islati',
     location: "Nova Scotia, Canada",
@@ -87,7 +86,6 @@ const artists = ref([
       },
     ]
   },
-
   {
     name: "Torza",
     location: "Ontario, Canada",
