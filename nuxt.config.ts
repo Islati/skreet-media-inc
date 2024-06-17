@@ -6,10 +6,18 @@ export default defineNuxtConfig({
             titleTemplate: '%s',  // This sets the title template to use only the page title without any suffix
 
             htmlAttrs: {
-                class: "dark bg-background text-foreground"
+                class: "dark bg-background text-foreground",
+                lang: "en",
+                viewport: 'width=device-width, initial-scale=1',
+
             },
             link: [
-                {rel: 'icon', type: 'image/png', href: '/img/logo.png'}
+                {rel: 'icon', type: 'image/png', href: '/img/logo.png'},
+                {name: 'description', content: 'Skreet Media Inc - The Culture Collective'},
+                {
+                    name: 'keywords',
+                    content: 'Skreet Media Inc., Skreet Media Inc, Skreet, Skreet Media, Culture Collective'
+                },
             ]
         }
     },
@@ -39,7 +47,7 @@ export default defineNuxtConfig({
     sitemap: {
         cacheMaxAgeSeconds: 3600, // 1 hour
         discoverImages: true,
-        routes: ['/'],
+        // routes: ['/'],
     },
     shadcn: {
         /**
@@ -52,10 +60,36 @@ export default defineNuxtConfig({
          */
         componentDir: './components/ui'
     },
+
     nitro: {
         prerender: {
             routes: ['/sitemap.xml']
-        }
+        },
+        routeRules: {
+            "/img/**": {headers: {'cache-control': `public,max-age=${32536000},s-maxage=${32536000}`}},
+            "/_nuxt/**": {headers: {'cache-control': `public,max-age=${32536000},s-maxage=${32536000}`}},
+        },
+        publicAssets: [
+            {
+                baseURL: "video",
+                dir: "public/video",
+                maxAge: 60 * 60 * 24 * 365,
+            },
+            {
+                baseURL: "images",
+                dir: "public/imgs",
+                maxAge: 60 * 60 * 24 * 365,
+            },
+            {
+                baseURL: "animations",
+                dir: "public/animations",
+                maxAge: 60 * 60 * 24 * 365,
+            },
+        ],
+        compressPublicAssets: {
+            brotli: true,
+            gzip: true,
+        },
     },
     content: {}
 })
