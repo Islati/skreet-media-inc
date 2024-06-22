@@ -14,6 +14,30 @@ useHead({
 
 const artists = ref([
   {
+    name: 'Islati',
+    location: "Nova Scotia, Canada",
+    img: '/img/islati.webp',
+    link: 'https://www.youtube.com/@Islati',
+    footerTags: [
+      {
+        text: 'Rapper',
+        classes: 'text-red-300'
+      },
+      {
+        text: 'Producer',
+        classes: 'text-blue-300'
+      },
+      {
+        text: 'DJ',
+        classes: 'text-cyan-300'
+      },
+      {
+        text: 'Director',
+        classes: 'text-white-200'
+      }
+    ]
+  },
+  {
     name: 'Smoke Hash',
     location: 'California, USA',
     img: '/img/smoke-hash-peru.jpeg',
@@ -28,6 +52,10 @@ const artists = ref([
         text: 'Producer',
         classes: 'text-blue-300'
       },
+      {
+        text: 'A & R',
+        classes: 'text-white-200'
+      }
     ]
   },
   {
@@ -66,30 +94,60 @@ const artists = ref([
       }
     ],
   },
+
   {
-    name: 'Islati',
-    location: "Nova Scotia, Canada",
-    img: '/img/islati-camping.png',
-    link: 'https://www.youtube.com/@Islati',
+    name: "Juan Lavoe",
+    location: "Cusco, Peru",
+    img: "/img/juan.webp",
+    link: "https://www.instagram.com/juanlxvoe",
     footerTags: [
       {
         text: 'Rapper',
-        classes: 'text-red-300'
+        classes: 'text-red-300',
       },
       {
-        text: 'Producer',
-        classes: 'text-blue-300'
+        text: 'Vocalist',
+        classes: 'text-blue-300',
       },
       {
-        text: 'DJ',
-        classes: 'text-cyan-300'
-      },
+        text: 'Musician',
+        classes: 'text-orange-300'
+      }
     ]
   },
   {
+    name: "Marquis Nicholas",
+    location: "Lagos, Nigeria",
+    img: "/img/marquis-nicholas.webp",
+    link: "https://www.skreet.ca",
+    footerTags: [
+      {
+        text: 'Vocalist',
+        classes: 'text-green-300'
+      }
+    ]
+  },
+  {
+    name: "onlynothingsforever",
+    location: "Montreal, Canada",
+    img: "/img/lilohmy.webp",
+    link: "https://www.instagram.com/onlynothingsforever",
+    footerTags: [
+      {
+        text: 'Rapper',
+        classes: 'text-red-300',
+      },
+      {
+        text: 'Vocalist',
+        classes: 'text-blue-300'
+      }
+    ]
+  },
+
+  {
     name: "Torza",
     location: "Ontario, Canada",
-    img: "/img/torza-closeup.jpeg",
+    img: "/img/torza-closeup.webp",
     link: "https://www.skreet.ca",
     footerTags: [
       {
@@ -99,6 +157,22 @@ const artists = ref([
       {
         text: 'Vocalist',
         classes: 'text-green-300'
+      }
+    ]
+  },
+  {
+    name: "Morgan Ice",
+    location: "Lagos, Nigeria",
+    img: "/img/morgan-2.webp",
+    link: "https://www.skreet.ca",
+    footerTags: [
+      {
+        text: 'Producer',
+        classes: 'text-green-300'
+      },
+      {
+        text: "Vocalist",
+        classes: "text-blue-300"
       }
     ]
   },
