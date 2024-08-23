@@ -1,5 +1,5 @@
 {
-  "name": "nuxt-app",
+  "name": "Media Empire",
   "private": true,
   "type": "module",
   "scripts": {
@@ -24,6 +24,7 @@
     "clsx": "^2.1.1",
     "gh-pages": "^6.1.1",
     "nuxt": "^3.11.2",
+    "nuxt-gtag": "^2.0.6",
     "nuxt-icon": "^0.6.10",
     "radix-vue": "^1.8.2",
     "shadcn-nuxt": "^0.10.4",

@@ -59,7 +59,7 @@ const artists = ref([
     ]
   },
   {
-    name: "Locust Street",
+    name: "JTLShadow",
     location: "Kansas, USA",
     img: "/img/Jesse.Leev.jpg",
     link: "https://www.instagram.com/jesse.leev",
@@ -68,18 +68,10 @@ const artists = ref([
         text: 'Rapper',
         classes: 'text-red-300'
       },
-      {
-        text: "DJ",
-        classes: 'text-cyan-300'
-      },
-      {
-        text: 'Vocalist',
-        classes: 'text-green-300'
-      }
     ]
   },
   {
-    name: "James Panacea",
+    name: "James Purcell",
     location: "Nova Scotia, Canada",
     img: "/img/james-panacea-diving.jpeg",
     link: "https://www.skreet.ca",
@@ -94,27 +86,6 @@ const artists = ref([
       }
     ],
   },
-
-  {
-    name: "Juan Lavoe",
-    location: "Cusco, Peru",
-    img: "/img/juan.webp",
-    link: "https://www.instagram.com/juanlxvoe",
-    footerTags: [
-      {
-        text: 'Rapper',
-        classes: 'text-red-300',
-      },
-      {
-        text: 'Vocalist',
-        classes: 'text-blue-300',
-      },
-      {
-        text: 'Musician',
-        classes: 'text-orange-300'
-      }
-    ]
-  },
   {
     name: "Marquis Nicholas",
     location: "Lagos, Nigeria",
@@ -128,35 +99,14 @@ const artists = ref([
     ]
   },
   {
-    name: "onlynothingsforever",
-    location: "Montreal, Canada",
-    img: "/img/lilohmy.webp",
-    link: "https://www.instagram.com/onlynothingsforever",
-    footerTags: [
-      {
-        text: 'Rapper',
-        classes: 'text-red-300',
-      },
-      {
-        text: 'Vocalist',
-        classes: 'text-blue-300'
-      }
-    ]
-  },
-
-  {
-    name: "Torza",
-    location: "Ontario, Canada",
-    img: "/img/torza-closeup.webp",
-    link: "https://www.skreet.ca",
+    name: "Trill McKnight",
+    location: "South Africa",
+    img: "/img/trill-mcknight.webp",
+    link: "https://www.instagram.com/trill47mcknight/",
     footerTags: [
       {
         text: "Rapper",
         classes: "text-red-300"
-      },
-      {
-        text: 'Vocalist',
-        classes: 'text-green-300'
       }
     ]
   },

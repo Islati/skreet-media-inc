@@ -33,7 +33,8 @@ export default defineNuxtConfig({
         "@nuxt/content",
         '@nuxtjs/color-mode',
         "@nuxt/image",
-        "nuxt-icon"
+        "nuxt-icon",
+        "nuxt-gtag"
     ],
     robots: {},
     seo: {
@@ -91,5 +92,5 @@ export default defineNuxtConfig({
             gzip: true,
         },
     },
-    content: {}
+    content: {},
 })
