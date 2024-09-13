@@ -38,39 +38,6 @@ const artists = ref([
     ]
   },
   {
-    name: 'Smoke Hash',
-    location: 'California, USA',
-    img: '/img/smoke-hash-peru.jpeg',
-    link: 'https://www.youtube.com/@smokehashxuriahjahvid',
-    footerTags: [
-
-      {
-        text: 'Rapper',
-        classes: 'text-red-300'
-      },
-      {
-        text: 'Producer',
-        classes: 'text-blue-300'
-      },
-      {
-        text: 'A & R',
-        classes: 'text-white-200'
-      }
-    ]
-  },
-  {
-    name: "JTLShadow",
-    location: "Kansas, USA",
-    img: "/img/Jesse.Leev.jpg",
-    link: "https://www.instagram.com/jesse.leev",
-    footerTags: [
-      {
-        text: 'Rapper',
-        classes: 'text-red-300'
-      },
-    ]
-  },
-  {
     name: "James Purcell",
     location: "Nova Scotia, Canada",
     img: "/img/james-panacea-diving.jpeg",
@@ -107,22 +74,6 @@ const artists = ref([
       {
         text: "Rapper",
         classes: "text-red-300"
-      }
-    ]
-  },
-  {
-    name: "Morgan Ice",
-    location: "Lagos, Nigeria",
-    img: "/img/morgan-2.webp",
-    link: "https://www.skreet.ca",
-    footerTags: [
-      {
-        text: 'Producer',
-        classes: 'text-green-300'
-      },
-      {
-        text: "Vocalist",
-        classes: "text-blue-300"
       }
     ]
   },
