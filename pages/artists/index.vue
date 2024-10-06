@@ -54,18 +54,6 @@ const artists = ref([
     ],
   },
   {
-    name: "Marquis Nicholas",
-    location: "Lagos, Nigeria",
-    img: "/img/marquis-nicholas.webp",
-    link: "https://www.skreet.ca",
-    footerTags: [
-      {
-        text: 'Vocalist',
-        classes: 'text-green-300'
-      }
-    ]
-  },
-  {
     name: "Trill McKnight",
     location: "South Africa",
     img: "/img/trill-mcknight.webp",
